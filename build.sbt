@@ -7,7 +7,6 @@ lazy val root = (project in file("."))
     name := "orm-reverse-engine-lab"
   )
 
-
 lazy val _postgresJDBCVersion = "42.5.1"
 lazy val _slf4jApiVersion = "2.0.5"
 lazy val _scalatestVersion = "3.2.14"
@@ -22,7 +21,6 @@ libraryDependencies ++= Seq(
   "org.scalikejdbc" %% "scalikejdbc-config" % _scalikejdbcVersion,
   "com.github.tototoshi" %% "scala-csv" % "1.3.10",
   "com.github.melrief" %% "purecsv" % "0.1.1",
-  //"org.scalatest" %% "scalatest" % _scalatestVersion % "test",
   "org.scalatest" %% "scalatest" % "3.2.14" % Test,
   "org.specs2" %% "specs2-core" % "4.19.0" % Test
 )
