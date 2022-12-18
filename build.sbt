@@ -1,4 +1,4 @@
-ThisBuild / version := "1.0.1"
+ThisBuild / version := "1.0.9"
 
 ThisBuild / scalaVersion := "2.12.15"
 
@@ -22,7 +22,7 @@ libraryDependencies ++= Seq(
   "org.scalikejdbc" %% "scalikejdbc-config" % _scalikejdbcVersion,
   "com.github.tototoshi" %% "scala-csv" % "1.3.10",
   "com.github.melrief" %% "purecsv" % "0.1.1",
-  //  "org.scalatest" %% "scalatest" % _scalatestVersion % "test",
+  //"org.scalatest" %% "scalatest" % _scalatestVersion % "test",
   "org.scalatest" %% "scalatest" % "3.2.14" % Test,
   "org.specs2" %% "specs2-core" % "4.19.0" % Test
 )
